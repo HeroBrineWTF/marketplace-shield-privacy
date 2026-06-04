@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marketplace Shield Privacy Policy</title>
+    <style>
+      :root {
+        --ink: #17202a;
+        --muted: #526173;
+        --paper: #ffffff;
+        --page: #f5f9ff;
+        --line: rgba(37, 99, 235, 0.16);
+        --accent: #1d4ed8;
+        --accent-soft: #dbeafe;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background:
+          linear-gradient(135deg, rgba(29, 78, 216, 0.1), transparent 38%),
+          var(--page);
+        color: var(--ink);
+        font-family: "Segoe UI", Verdana, sans-serif;
+      }
+
+      main {
+        width: min(860px, calc(100vw - 32px));
+        margin: 32px auto;
+        padding: 28px;
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        background: var(--paper);
+        box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+      }
+
+      h1,
+      h2,
+      p,
+      li {
+        margin: 0;
+      }
+
+      h1 {
+        color: #172554;
+        font: 900 clamp(28px, 4vw, 42px)/1.02 "Segoe UI", Verdana, sans-serif;
+      }
+
+      h2 {
+        margin-top: 26px;
+        color: var(--accent);
+        font: 900 17px/1.15 "Segoe UI", Verdana, sans-serif;
+      }
+
+      p,
+      li {
+        color: var(--ink);
+        font: 14px/1.6 "Segoe UI", Verdana, sans-serif;
+      }
+
+      .lede,
+      .meta {
+        color: var(--muted);
+      }
+
+      .lede {
+        margin-top: 10px;
+      }
+
+      .meta {
+        margin-top: 16px;
+        padding: 14px 16px;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background: #f8fbff;
+      }
+
+      ul {
+        margin: 12px 0 0;
+        padding-left: 20px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      .note {
+        margin-top: 22px;
+        padding: 14px 16px;
+        border: 1px solid rgba(37, 99, 235, 0.14);
+        border-left: 4px solid var(--accent);
+        border-radius: 16px;
+        background: var(--accent-soft);
+      }
+
+      .contact {
+        margin-top: 12px;
+      }
+
+      code {
+        font-family: Consolas, "Courier New", monospace;
+        font-size: 0.95em;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Marketplace Shield Privacy Policy</h1>
+      <p class="lede">
+        Marketplace Shield helps users review visible Facebook Marketplace listing pages and visible Marketplace chat text for possible scam patterns before they message a seller, send money, or share personal information.
+      </p>
+      <div class="meta">
+        <p><strong>Developer:</strong> HeroIsHere</p>
+        <p><strong>Support email:</strong> heroishere.business@pcpathfinder.com</p>
+        <p><strong>Effective date:</strong> June 3, 2026</p>
+      </div>
+
+      <h2>Single Purpose</h2>
+      <p>
+        Marketplace Shield is a browser extension for supported Facebook Marketplace item pages. It highlights possible scam patterns and suggests verification steps. It does not claim that a listing is definitely a scam.
+      </p>
+
+      <h2>Data The Extension Handles</h2>
+      <p>Marketplace Shield may read:</p>
+      <ul>
+        <li>Visible text on supported Facebook Marketplace item pages.</li>
+        <li>Visible Marketplace chat text if a chat is open on the listing page.</li>
+        <li>Visible listing image metadata, such as large visible image count, image alt-text samples, and source hostnames. Marketplace Shield does not collect image contents or full image URLs in the current version.</li>
+        <li>Listing metadata visible on the page, such as title, price, listing age, location text, seller-review text, and seller-profile signals.</li>
+        <li>User settings, local result feedback, and local duplicate-history text fingerprints stored in Chrome local storage.</li>
+      </ul>
+
+      <h2>How Data Is Used</h2>
+      <p>
+        The extension uses visible listing text, visible chat text, visible location text, and limited visible image metadata to run local rule-based analysis and show possible scam-pattern warnings, evidence chips, safety tips, score breakdowns, proof-checklist steps, and scan-debug details.
+      </p>
+      <p class="contact">
+        Optional local feedback is used to help the user export redacted examples for rule improvement. Optional duplicate-history fingerprints are used only to compare listings this browser has recently seen.
+      </p>
+
+      <h2>Data Sharing</h2>
+      <p>Marketplace Shield does not sell user data.</p>
+      <p class="contact">
+        Marketplace Shield does not upload listing text, chat text, location text, image metadata, feedback, duplicate-history fingerprints, or scan results to a server in the current version.
+      </p>
+      <p class="contact">
+        Exported fixtures or feedback logs are created only when the user clicks an export or download action. The user controls whether to share those exported files.
+      </p>
+
+      <h2>Data Storage</h2>
+      <p>Marketplace Shield stores the following in Chrome local storage:</p>
+      <ul>
+        <li>Settings.</li>
+        <li>Optional redacted feedback records.</li>
+        <li>Optional duplicate-history text fingerprints.</li>
+      </ul>
+      <p class="contact">
+        Users can disable feedback storage and duplicate-history storage in Settings. Users can clear stored feedback records and duplicate-history fingerprints from Settings with <code>Clear optional local data</code>. Users can reset settings separately with <code>Reset defaults</code>.
+      </p>
+
+      <h2>User Control</h2>
+      <ul>
+        <li>Turn off local feedback storage.</li>
+        <li>Turn off duplicate-history fingerprint storage.</li>
+        <li>See counts for optional stored feedback records and duplicate-history fingerprints.</li>
+        <li>Clear optional local feedback and duplicate-history fingerprints.</li>
+        <li>Reset extension settings to defaults.</li>
+        <li>Export feedback logs for review.</li>
+        <li>Remove the extension to delete extension-managed Chrome local storage.</li>
+      </ul>
+
+      <h2>Limits</h2>
+      <p>
+        Marketplace Shield is an early tool and may be inaccurate. It flags possible scam patterns, not proof that a listing is a scam.
+      </p>
+
+      <div class="note">
+        <p>
+          The local publish-readiness checks for this version block unexpected runtime network APIs and remote extension-page assets. This supports the current local-only analysis design.
+        </p>
+      </div>
+
+      <h2>Contact</h2>
+      <p>heroishere.business@pcpathfinder.com</p>
+    </main>
+  </body>
+</html>
